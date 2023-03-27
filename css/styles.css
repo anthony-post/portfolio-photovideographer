@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+
+.header-wrapper {
+  background-image: url("../img/header_bg.jpg");
+  /* background-color: gainsboro; */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  padding: 0 20px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #121212;
+}
+
+.nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-text {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.nav__item {
+  padding: 0 20px;
+}
+
+.project {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.project__title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 154px;
+  text-align: center;
+  color: #ffffff;
+}
+.project__text {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+.project__link {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.project-wrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-first {
+  background-image: url("../img/living room girls.jpg");
+}
+
+.project-second {
+  background-image: url("../img/the shape of water flowers.jpg");
+}
+
+.project-third {
+  background-image: url("../img/capturing the sunlight.jpg");
+}
+
+.project-fourth {
+  background-image: url("../img/looking on other side.jpg");
+}
+
+/*# sourceMappingURL=styles.css.map */

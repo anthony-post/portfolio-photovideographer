@@ -1,0 +1,116 @@
+@import "./variables.scss";
+
+body {
+    margin: 0;
+}
+
+.header-wrapper {
+    background-image: url("../img/header_bg.jpg");
+    /* background-color: gainsboro; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    padding: 0 20px;
+
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: $color-black;
+}
+
+.nav__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text {
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: $color-white;
+}
+
+.nav__item {
+    padding: 0 20px;
+}
+
+.project {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    &__title {
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 140px;
+        line-height: 154px;
+        text-align: center;
+        color: $color-white;
+    }
+
+    &__text {
+        font-family: $font-text;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        text-align: center;
+        color: $color-white;
+    }
+
+    &__link {
+        font-family: $font-btn;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: $color-white;
+        text-decoration: none;
+        box-sizing: border-box;
+        border: 1px solid $color-white;
+        border-radius: 30px;
+        padding: 10px 30px;
+    }
+}
+
+.project-wrp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-first {
+    background-image: url("../img/living room girls.jpg");
+}
+
+.project-second {
+    background-image: url("../img/the shape of water flowers.jpg");
+}
+
+.project-third {
+    background-image: url("../img/capturing the sunlight.jpg");
+}
+
+.project-fourth {
+    background-image: url("../img/looking on other side.jpg");
+}
